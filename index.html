@@ -8,19 +8,30 @@
         list-style-type: none;
         display: inline;
     }
+   #top_section {
+       margin-top: 0%;
+   }
     #list_left {
         float: left;
+        margin-top: 0%;
     }
     #list_right {
         float: right;
+        margin-top: 0%;
        }
     body {
+        margin-top: 10%;
         margin-right: auto;
         margin-left: auto;
         text-align: center;
     }
+    #buttons {
+        margin-top: 15px;
+    }
 </style>
-<header>
+
+<div id="top_section">
+    <section>
     <nav>
         <ul id="list_left">
             <li><a href="#About">About</a></li>
@@ -31,11 +42,19 @@
             <li><a href="Images">Images</a></li>
         </ul>
     </nav>
-   </header>
+    </section>
+
+</div>
+
+<div>
 <body>
     <div>
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
     </div>
     <input class="search" type="text" placeholder="Search..">
-
+    <div id="buttons">
+    <button type="button">Google Search</button>
+    <button type="button">I'm Feeling Lucky</button>
+    </div>
 </body>
+</div>
